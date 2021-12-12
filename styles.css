@@ -58,6 +58,7 @@ html {
 
 .libraries-one {
   display: inline-block;
+  vertical-align: text-top;
   width: 45%;
   margin-right: 20px;
   margin-left: 60px;
@@ -68,6 +69,7 @@ html {
 
 .libraries-two {
   display: inline-block;
+  vertical-align: text-top;
   width: 45%;
   margin-right: 60px;
   margin-left: 20px;
@@ -119,6 +121,8 @@ html {
 }
 
 .contact {
+  box-sizing: border-box;
+  background-color: #e6d812;
   width: 100%;
   background-size: cover;
   font-size: 20px;
@@ -127,7 +131,6 @@ html {
 .content {
   display: inline-block;
   vertical-align: text-top;
-  box-sizing: border-box;
   width: 50%;
   background-color: #000;
   text-align: center;
@@ -137,8 +140,7 @@ html {
 .box {
   display: inline-block;
   vertical-align: text-top;
-  box-sizing: border-box;
-  width: 50%;
+  width: 49%;
   background-color: #e6d812;
   text-align: center;
   color: #000;
